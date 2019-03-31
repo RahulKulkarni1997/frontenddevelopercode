@@ -1,0 +1,104 @@
+body{
+	background-image: url('sunrisers.png');
+	 background-position: center center;
+    background-attachment: fixed;
+    background-size: fill;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+
+header{
+	background: orange;
+	border: solid;
+	border-color: red;
+
+}
+
+.form{
+padding:0 auto;
+
+margin-top: 100px;
+margin-left: 100px;
+margin-bottom:100px;
+margin-right: 100px;
+min-width: all;
+min-height: 15em;
+width: 20em;
+
+	box-sizing:border-box;
+	border: solid;
+	background-color: rgba(255,255,255,0.4);
+vertical-align: middle;
+position:relative;
+
+
+}
+.form h1{
+	font-style: normal;
+	font-size: 30px;
+}
+
+.form label{
+    display: inline-block;
+
+    text-align: left;
+   color: black;
+    float: left;
+padding: auto;
+margin-left: 5%;
+	margin-top: 5%;
+width: auto;
+
+
+}
+
+.form input{
+	text-align: left;
+	display: inline-block;
+	float: right;
+	padding: auto;
+	margin-top: 5%;
+	margin-right: 5%;
+	width: auto;
+
+
+}
+
+.form input:hover{
+background-color: orange;
+
+}
+
+.form button{
+
+background-color: orange; 
+width: 8em;
+height: 3em;
+text-align: center;
+display: inline-block;
+border: groove;
+vertical-align: middle;
+margin-left: 5%;
+margin-right: 5%;
+box-sizing: border-box;
+transition: all 0.2s;
+border-radius:0.12em; 
+align-items: center;
+margin-bottom: 5%;
+margin-top: 5%;
+
+
+}
+
+.form button:hover{
+background-color: yellow;
+color:red;
+font-size: 1.1em;
+
+}
+
+footer{
+	background: orange;
+	margin-bottom: 0px;
+}
